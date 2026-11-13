@@ -1,0 +1,73 @@
+# Dependencies
+/node_modules/
+/.pnp/
+.pnp.*
+
+# Package manager caches and logs
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Next.js and other generated build output
+/.next/
+/out/
+/build/
+/dist/
+/coverage/
+/playwright-report/
+/test-results/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Supabase local state and generated database artifacts
+/supabase/.temp/
+/supabase/.branches/
+/supabase/.env
+/supabase/.env.*
+/supabase/seed.local.sql
+*.dump
+*.dump.gz
+*.sql.gz
+
+# TypeScript and tool caches
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.turbo/
+.vercel/
+.cache/
+
+# Editor and operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+*.swp
+*.swo
+*~
+
+# Local certificates and generated archives
+*.crt
+*.cer
+*.zip
